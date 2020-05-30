@@ -1,0 +1,111 @@
+/*Font style*/
+@font-face {
+    font-family: myFirstFont;
+    src: url("/lib/fonts/Metronic Pro/Metronic Pro SemiBold Italic.woff");
+}
+
+body {
+    font-family: myFirstFont;
+    background-color: #ffffff;
+    font-size: 15px;
+}
+/*Main page*/
+
+.empty-list{
+    height: 50px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 20px;
+    color:white;
+}
+
+.footer-style{
+    padding: 20px 20px;
+    text-align: center;
+    background-color: #F0F0F0;
+    border-top: 1px solid #e5e5e5;
+    font-size: 17px;
+    margin-left: 5px;
+
+}
+
+/*Navbar style*/
+.masthead {
+    color: green;
+}
+.nav-image{
+    width: 50px;
+    height: 50px;
+}
+/* Nav links */
+.nav-item {
+    color: green;
+}
+.nav-item:hover,
+.nav-item:focus {
+    color: blue;
+    background-color: green;
+}
+
+/*Student card style*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.info-position{
+    width: 80%;
+    padding-left: 20px;
+}
+
+
+.container {
+    padding: 2px 16px;
+}
+
+.nav-item:active {
+    color: white;
+    background-color: green;
+}
+/* Active state gets a caret at the bottom */
+.nav .active:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    vertical-align: middle;
+    content: " ";
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid;
+    border-left: 5px solid transparent;
+}
+
+.home-page-picture{
+    width: 800px;
+    height: 100%
+}
+
+.student-photo{
+    width:100%;
+    height: 60%;
+}
+
+.list-position{
+    padding-left: 80px
+}
+
+
+
+
+
+
